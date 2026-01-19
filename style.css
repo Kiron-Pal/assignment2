@@ -453,7 +453,7 @@ hr {
 
 footer {
     background-color: #211142;
-    background-image: url("../assets/footer-bg.png");
+    background-image: url("assets/footer-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -474,7 +474,7 @@ footer .footer-container {
 }
 
 .footer-container .footer-social {
-    gap: 4rem;
+    gap: 3rem;
     flex-wrap: wrap;
 }
 
