@@ -19,6 +19,19 @@
   display: flex;
 }
 
+.section-heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+.gray-color {
+  color: #aa9fb8;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
 .navbar {
   justify-content: space-between;
   align-items: center;
@@ -125,4 +138,117 @@
   gap: 8px;
   justify-content: center;
   align-items: center;
+}
+
+.about {
+  background: #1a0b2e;
+}
+
+.about .about-container {
+  padding-bottom: 3rem;
+}
+.about-content {
+  text-align: center;
+}
+.info1 {
+  margin-bottom: 0.5rem;
+}
+.info2 {
+  margin-bottom: 3rem;
+}
+hr {
+  opacity: 0.1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.data .data-card h3 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  color: #00ff88;
+}
+
+.data .data-card {
+  text-align: center;
+}
+
+.about-container .data {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 80px;
+}
+
+.choose {
+  background: #230e3d;
+}
+.choose-container {
+  padding: 100px 200px;
+  max-width: 1200px;
+}
+.choose-container h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.choose-box .box {
+  background-color: #2a0f4d;
+  border-radius: 40px;
+  padding: 40px;
+}
+
+.box img {
+  margin-bottom: 1rem;
+}
+
+.box h3 {
+  font-size: 1.5rem;
+  font: 700;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.box p {
+  color: #aa9fb8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.box img {
+  width: 50px;
+  height: 50px;
+}
+.mobile-box img {
+  width: 50px;
+  height: 60px;
+}
+
+.choose-box .premium-box {
+  grid-area: premium;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.choose-box .mobile-box {
+  grid-area: mobile;
+}
+
+.choose-box .global-box {
+  grid-area: global;
+}
+
+.choose-box .exclusive-box {
+  grid-area: exclusive;
+}
+
+.choose-box .rich-box {
+  grid-area: rich;
+}
+
+.choose-container .choose-box {
+  display: grid;
+  gap: 2rem;
+  grid-template-areas:
+    " premium     mobile      mobile      mobile"
+    " premium     global      global      global"
+    " exclusive   exclusive   exclusive   rich";
 }

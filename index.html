@@ -1,51 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-     
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
-</head>
-<body class="inter-font">
+  </head>
+  <body class="inter-font">
     <header>
-        <nav class="navbar container flex">
-            <div class="logo">
-                <h1> Tech<span class="wave">Wave</span></h1>
+      <nav class="navbar container flex">
+        <div class="logo">
+          <h1>Tech<span class="wave">Wave</span></h1>
+        </div>
+        <ul class="nav-links flex">
+          <li><a href="">About</a></li>
+          <li><a href="">Episodes</a></li>
+          <li><a href="">Host</a></li>
+        </ul>
+        <button class="btn">Subscribe <span class="arrow">→</span></button>
+      </nav>
 
+      <section class="banner flex">
+        <div class="banner-container container">
+          <div class="banner-img">
+            <img src="assets/hero-circle.png" alt="" class="circle" />
+            <img src="assets/microphone.png" alt="" class="mic" />
+            <div class="banner-badge">
+              <p class="badge">New</p>
             </div>
-            <ul class="nav-links flex">
-                <li><a href="">About</a></li>
-                <li><a href="">Episodes</a></li>
-                <li><a href="">Host</a></li>
-            </ul>
-            <button class="btn">Subscribe <span class="arrow">→</span></button>
-        </nav>
+          </div>
+          <div class="banner-info">
+            <h2>TechWave</h2>
+            <p class="">
+              Your daily dose of tech insights, productivity hacks, and personal
+              growth
+            </p>
+          </div>
+          <div class="banner-btn flex">
+            <button class="btn flex">
+              <img src="assets/spotify.png" alt="" />Listen on Spotify
+            </button>
 
-        <section class="banner flex">
-            <div class="banner-container container ">
-                <div class="banner-img">
-                    <img src="assets/hero-circle.png" alt="" class="circle">
-                    <img src="assets/microphone.png" alt="" class="mic">
-                    <div class="banner-badge">
-                        <p class="badge">New</p>
-                    </div>
-                </div>
-                <div class="banner-info">
-                    <h2>TechWave</h2>
-                    <p class=>Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                </div>
-                <div class="banner-btn  flex ">
-                    
-                    
-                    <button class="btn flex"><img src="assets/spotify.png" alt="">Listen on Spotify</button>
-
-
-                    <button class="btn2 flex"><img src="assets/message.png" alt="">   Subscribe</button>
-                </div>
-            </div>
-        </section>
+            <button class="btn2 flex">
+              <img src="assets/message.png" alt="" /> Subscribe
+            </button>
+          </div>
+        </div>
+      </section>
     </header>
-    
-</body>
+
+    <main>
+      <section class="about">
+        <div class="about-container cntainer">
+          <div class="about-content">
+            <h2 class="section-heading">About the Podcast</h2>
+            <div class="about-info">
+              <p class="info1 gray-color">
+                TechWave is your go-to podcast for staying ahead in the
+                fast-paced world of technology.
+              </p>
+              <p class="info2 gray-color">
+                We break down complex topics into digestible insights, explore
+                productivity strategies that actually work,
+              </p>
+              <p class="info2 gray-color">
+                Join thousands of young professionals and tech enthusiasts who
+                start their day with TechWave.
+              </p>
+              <hr />
+            </div>
+          </div>
+
+          <div class="data">
+            <div class="data-card">
+              <h3>150K+</h3>
+              <p class="gray-color">Monthly Listeners</p>
+            </div>
+            <div class="data-card">
+              <h3>200+</h3>
+              <p class="gray-color">Episodes Published</p>
+            </div>
+            <div class="data-card">
+              <h3>4.9★</h3>
+              <p class="gray-color">Average Rating</p>
+            </div>
+            <div class="data-card">
+              <h3>50+</h3>
+              <p class="gray-color">Industry Experts</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="choose">
+        <div class="choose-container container">
+          <h2 class="section-heading">Why Choose TechWave</h2>
+
+          <div class="choose-box">
+            <div class="premium-box box">
+              <img src="./assets/headphone.png" alt="" />
+              <h3>Premium Audio Quality</h3>
+              <p>
+                Experience crystal-clear sound with professional-grade recording
+                equipment and expert audio engineering. Every episode is
+                mastered for optimal listening across all devices and platforms.
+              </p>
+            </div>
+            <div class="mobile-box box">
+              <img src="./assets/device.png" alt="" />
+              <h3>Mobile Friendly</h3>
+              <p>
+                Listen on the go with seamless mobile experience and offline
+                downloads.
+              </p>
+            </div>
+            <div class="global-box box">
+              <img src="./assets/location.png" alt="" />
+              <h3>Global Community</h3>
+              <p>
+                Connect with tech enthusiasts from over 120 countries worldwide.
+              </p>
+            </div>
+            <div class="exclusive-box box">
+              <img src="./assets/thunder.png" alt="" />
+              <h3>Exclusive Interviews</h3>
+              <p>
+                Get unprecedented access to industry titans, startup founders,
+                and tech visionaries. Our host secures exclusive conversations
+                you won't find anywhere else, diving deep into their journeys,
+                failures, and success strategies.
+              </p>
+            </div>
+            <div class="rich-box box">
+              <img src="./assets/resource.png" alt="" />
+              <h3>Rich Resources</h3>
+              <p>
+                Access show notes, transcripts, and additional learning
+                materials for every episode.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
