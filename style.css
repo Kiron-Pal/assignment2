@@ -463,7 +463,7 @@ footer .footer-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-block: 7rem;
+    padding-block: 8rem;
 }
 
 .footer-container .footer-logo {
@@ -474,7 +474,7 @@ footer .footer-container {
 }
 
 .footer-container .footer-social {
-    gap: 2rem;
+    gap: 4rem;
     flex-wrap: wrap;
 }
 
