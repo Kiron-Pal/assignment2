@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
 
     <title>Document</title>
   </head>
   <body class="inter-font">
-    <header>
+    <header style="background: #1A0b2e;">
       <nav class="navbar container flex">
         <div class="logo">
           <h1>Tech<span class="wave">Wave</span></h1>
@@ -18,7 +19,8 @@
           <li><a href="">Episodes</a></li>
           <li><a href="">Host</a></li>
         </ul>
-        <button class="btn">Subscribe <span class="arrow">→</span></button>
+        <button class=" nav-btn btn">Subscribe <span class="arrow">→</span></button>
+        <span class="nav-icon"><img src="./assets/hamburger-menu.png" alt=""></span>
       </nav>
 
       <section class="banner flex">
@@ -32,13 +34,13 @@
           </div>
           <div class="banner-info">
             <h2>TechWave</h2>
-            <p class="">
+            <p>
               Your daily dose of tech insights, productivity hacks, and personal
               growth
             </p>
           </div>
           <div class="banner-btn flex">
-            <button class="btn flex">
+            <button class="bt1 btn flex">
               <img src="assets/spotify.png" alt="" />Listen on Spotify
             </button>
 
@@ -72,7 +74,7 @@
             </div>
           </div>
 
-          <div class="data">
+          <div class="data container">
             <div class="data-card">
               <h3>150K+</h3>
               <p class="gray-color">Monthly Listeners</p>
@@ -143,6 +145,137 @@
           </div>
         </div>
       </section>
+
+        <section id="episodes">
+            <!-- feature section area start -->
+            <section class="feature">
+                <div class="feature-container  container">
+                    <h2 class="section-heading">Featured Episodes</h2>
+
+                    <div class="feature-box">
+                        <div class="future-card  card">
+                            <div class="video">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/5MWT_doo68k?si=DlcF-J1iN-VfXBfI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="play-btn  "></span>
+                            </div>
+                            <div class="card-details">
+                                <h3>The Future of AI in Everyday Life</h3>
+                                <p class="card-info gray-color">Exploring how artificial intelligence is transforming
+                                    our
+                                    daily routines and what to
+                                    expect
+                                    in the next decade.</p>
+                                <div class="video-time"><img src="./assets/clock.png" alt="">48 min</div>
+                            </div>
+                        </div>
+                        <div class="remote-card  card">
+                            <div class="video">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/Wld2pSTFh_M?si=wVqnN1SbrGVg5QpJ"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="play-btn  "></span>
+                            </div>
+                            <div class="card-details">
+                                <h3>Building Better Habits for Remote Work</h3>
+                                <p class="card-info gray-color">Practical strategies for staying productive and
+                                    maintaining
+                                    work-life balance in a remote
+                                    environment.</p>
+                                <div class="video-time "><img src="./assets/clock.png" alt="">24 min</div>
+                            </div>
+                        </div>
+                        <div class="career-card card">
+                            <div class="video">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/K2mP36DoekA?si=7iJNU7fzATAVamO1"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="play-btn  "></span>
+                            </div>
+                            <div class="card-details">
+                                <h3>Career Growth in Tech: A Roadmap</h3>
+                                <p class="card-info gray-color">Expert advice on navigating your tech career from junior
+                                    developer to senior leadership
+                                    roles.</p>
+                                <div class="video-time"><img src="./assets/clock.png" alt="">2 min</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+                        <section class="host">
+                <div class="host-container  container">
+                    <h2 class="section-heading">Meet the Host</h2>
+
+                    <div class="host-content  flex">
+                        <div class="host-img">
+                            <img src="./assets/host.png" alt="">
+                        </div>
+                        <div class="host-info">
+                            <h3 class="host-name">Alex Kumar</h3>
+                            <p class="host-text  gray-color">Tech entrepreneur, productivity expert, and lifelong
+                                learner.
+                                Alex has been
+                                in the tech industry for over 10 years, working with startups and Fortune 500 companies.
+                                Through TechWave, Alex shares insights from industry leaders and practical advice for
+                                anyone
+                                looking to grow in tech.</p>
+
+                            <div class="host-media  flex">
+                                <div class="insta  flex">
+                                    <img src="./assets/instagram.png" alt="">
+                                </div>
+                                <div class="youtube  flex">
+                                    <img src="./assets/youtube.png" alt="">
+                                </div>
+                                <div class="meta-x  flex">
+                                    <img src="./assets/x.png" alt="">
+                                </div>
+                                <div class="linkedin  flex">
+                                    <img src="./assets/linkedin.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
     </main>
+
+    <footer>
+        <div class="footer-container container  flex">
+            <h2 class="footer-logo">Tech<span class="wave">Wave</span></h2>
+            <div class="footer-social  flex">
+                <div class="footer-media  flex">
+                    <img src="./assets/spotify.png" alt="">
+                    <p class="social-name  gray-color">Spotify</p>
+                </div>
+                <div class="footer-media  flex">
+                    <img src="./assets/apple-podcast.png" alt="">
+                    <p class="social-name  gray-color">Apple Podcasts</p>
+                </div>
+                <div class="footer-media  flex">
+                    <img src="./assets/youtube-podcast.png" alt="">
+                    <p class="social-name  gray-color">YouTube</p>
+                </div>
+                <div class="footer-media  flex">
+                    <img src="./assets/twitter.png" alt="">
+                    <p class="social-name  gray-color">Twitter</p>
+                </div>
+            </div>
+            <p class="copyright  gray-color">© 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
+    </footer>
   </body>
 </html>
