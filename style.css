@@ -55,6 +55,23 @@
   color: white;
   font-size: 16px;
 }
+
+.slide{
+  top: -900px;
+   animation: slideIn 1.2s ease-out forwards;
+}
+
+ 
+@keyframes slideIn{
+    from {
+        transform: translatey(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
 .btn {
   padding: 12px 20px;
 
